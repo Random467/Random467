@@ -6,22 +6,22 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 12px;
+  gap: 10px;
 }
 
 .screen-footer__text {
   margin: 0;
   font-family: var(--font-display);
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 400;
-  line-height: 1.45;
-  letter-spacing: 0.01em;
+  line-height: 1.36;
+  letter-spacing: 0.015em;
   color: #ffffff;
   text-align: right;
 }
 
 .screen-footer__icon {
-  width: 14px;
-  height: 14px;
-  color: rgba(255, 255, 255, 0.55);
+  width: 12px;
+  height: 12px;
+  color: rgba(255, 255, 255, 0.48);
 }

@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
 :root {
-  --font-display: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-display:
+    -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue',
+    Helvetica, Arial, sans-serif;
 }
 
 *,
@@ -18,7 +18,7 @@ body,
 
 body {
   margin: 0;
-  background: #1a1a1a;
+  background: #111111;
   font-family: var(--font-display);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -3,5 +3,6 @@
   align-items: center;
   justify-content: center;
   min-height: 100%;
-  padding: 2rem;
+  padding: 24px;
+  background: #111111;
 }
