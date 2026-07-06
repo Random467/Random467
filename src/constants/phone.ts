@@ -1,0 +1,3 @@
+export const PHONE_WIDTH = 390
+export const PHONE_HEIGHT = 844
+export const PHONE_ASPECT_RATIO = PHONE_WIDTH / PHONE_HEIGHT
