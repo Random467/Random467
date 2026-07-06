@@ -1,7 +1,7 @@
-import { PhoneScaler } from './components/layout'
+import { AppShell } from './components/layout'
 
 function App() {
-  return <PhoneScaler />
+  return <AppShell />
 }
 
 export default App
