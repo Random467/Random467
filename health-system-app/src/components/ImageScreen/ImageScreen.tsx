@@ -1,4 +1,4 @@
-import figmaExport from '../../assets/figma-export.png'
+import screenImage from '../../assets/human-machine-screen.png'
 import { HOTSPOTS } from '../../config/hotspots'
 import { useScreenActions } from '../../hooks/useScreenActions'
 import { Hotspot } from '../Hotspot/Hotspot'
@@ -11,13 +11,13 @@ export function ImageScreen() {
   return (
     <div className="image-screen">
       <img
-        src={figmaExport}
-        alt=""
+        src={screenImage}
+        alt="Human Machine app screen"
         className="image-screen__background"
         draggable={false}
       />
 
-      <div className="image-screen__overlay" aria-hidden={false}>
+      <div className="image-screen__overlay">
         {HOTSPOTS.map((hotspot) => (
           <Hotspot
             key={hotspot.id}

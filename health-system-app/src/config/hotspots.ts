@@ -1,4 +1,4 @@
-export type HotspotAction = 'footer-info' | 'sparkle-info'
+export type HotspotAction = 'title-info' | 'footer-info' | 'sparkle-info'
 
 export type HotspotConfig = {
   id: string
@@ -15,22 +15,31 @@ export const SCREEN_HEIGHT = 844
 
 export const HOTSPOTS: HotspotConfig[] = [
   {
+    id: 'hero-title',
+    label: 'Human Machine',
+    action: 'title-info',
+    x: 16,
+    y: 120,
+    width: 358,
+    height: 170,
+  },
+  {
     id: 'footer-copy',
     label: 'Automatic Systems, Built to Endure',
     action: 'footer-info',
-    x: 246,
-    y: 748,
-    width: 104,
-    height: 40,
+    x: 230,
+    y: 700,
+    width: 130,
+    height: 44,
   },
   {
     id: 'footer-sparkle',
     label: 'Sparkle',
     action: 'sparkle-info',
-    x: 322,
-    y: 776,
-    width: 44,
-    height: 44,
+    x: 320,
+    y: 764,
+    width: 40,
+    height: 40,
   },
 ]
 
@@ -40,6 +49,10 @@ export type ModalContent = {
 }
 
 export const HOTSPOT_ACTIONS: Record<HotspotAction, ModalContent> = {
+  'title-info': {
+    title: 'Human Machine',
+    body: 'Explore the systems that keep the body running.',
+  },
   'footer-info': {
     title: 'Automatic Systems',
     body: 'Built to Endure',
